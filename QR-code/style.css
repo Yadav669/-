@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+
+}
+.container{
+    /* min-height: 11rem; */
+    /* max-height: 17rem; */
+    width: 400px;
+    background: rgb(244, 240, 244);
+    border-radius: 6px;
+    position: absolute;
+    padding: 25px 35px;
+    top: 30%;
+    left: 37%;
+    /* margin-left: 30%; */
+}
+h3{
+    font-size: 1.8rem;
+    color: rgb(20, 46, 37);
+    margin-bottom: 1rem;
+    margin-left: 20%;
+}
+input{
+    padding: 0.5rem 1rem;
+    height: 2rem;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+button{
+    width: 60%;
+    border-radius: 8px;
+    /* padding: 8px 0px; */
+    height: 3rem;
+    margin-left: 20%;
+    cursor: pointer;
+    background: darkblue;
+    color: aliceblue;
+}
+#QR{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+    /* border: 1px solid yellow; */
+    margin: 25px;
+    transition: max-heigth 1s;
+}
+#QR img{
+    width: 100%;
+    padding: 8px;
+}
+
+
+@media screen {
+    
+}

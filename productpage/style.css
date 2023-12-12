@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(125, 130, 170);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    width: 700px;
+    background-color: aliceblue;
+    /* position: absolute; */
+}
+.gallery{
+    transform: scale(1.08);
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.gallery img{
+        width: 300px;
+        height: 500px;
+        display: block;
+        padding: 100px;
+        background-color: black;
+        object-fit: cover;
+        padding-left: 60px;
+}
+.details{
+    flex-basis: 53%;
+    background: #fff;
+    padding: 40px;
+    padding-left: 60px;
+    box-shadow: -10px 5px 10px 10px rgba(0, 0, 0, 0.1);
+}
